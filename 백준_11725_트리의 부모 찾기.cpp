@@ -1,6 +1,7 @@
 #include<iostream>
 #include<vector>
 #define MAX 100001
+#define endl '\n'
 using namespace std;
 vector<int> a[MAX];
 int parent[MAX];

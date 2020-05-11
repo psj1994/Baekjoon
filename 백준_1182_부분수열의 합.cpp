@@ -3,6 +3,7 @@
 using namespace std;
 int main(void)
 {
+	cout<<"DF"<<endl;
 	int n,m;
 	cin>>n>>m;
 	vector<int> a(n);
