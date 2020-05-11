@@ -19,7 +19,6 @@ void go(int cnt,int x)
 			v[y]=true;
 			go(cnt+1,y);
 			v[y]=false;
-			
 		}
 	}
 }

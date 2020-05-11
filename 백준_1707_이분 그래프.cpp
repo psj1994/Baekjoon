@@ -27,7 +27,6 @@ int main(void)
 		int n,m;
 		cin>>n>>m;
 		for(int i=1;i<=n;i++)a[i].clear();
-		
 		memset(color,0,sizeof(color));
 		for(int i=0;i<m;i++){
 			int q,w;

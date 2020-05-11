@@ -25,7 +25,6 @@ void dfs(int x,int y,int n)
 			
 		}
 	}
-	
 }
 int main(void)
 {
@@ -53,5 +52,4 @@ int main(void)
 	cout<<ans.size()<<endl;
 	for(auto & w : ans)cout<<w<<endl;
 	return 0;
-	
 }

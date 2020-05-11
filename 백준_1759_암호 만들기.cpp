@@ -1,7 +1,7 @@
 #include<iostream>
 #include<vector>
 #include<algorithm>
-#defien endl '\n'
+#define endl '\n'
 using namespace std;
 vector<char> ans;
 bool check(vector<char> & rhs)

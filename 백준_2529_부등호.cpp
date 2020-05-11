@@ -37,7 +37,7 @@ bool go2(int cnt,int n,string a)
 {
 	if(cnt==n+1)
 	{
-//	if(!check(ans,a))return false;
+	if(!check(ans,a))return false;
 	for(auto & w : ans)cout<<w;
 	cout<<endl;
 	return true;

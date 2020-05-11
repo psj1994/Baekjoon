@@ -11,7 +11,7 @@ int  go(int day,int sum,int n)
 		return sum;
 	}
 	if(day>n+1)return 0;
-	return (go(day+a[day],sum+d[day],n)>go(day+1,sum,n)?go(day+a[day],sum+d[day],n):go(day+1,sum,n));
+	return (go(day+a[day],sum+d[day],n)>=go(day+1,sum,n)?go(day+a[day],sum+d[day],n):go(day+1,sum,n));
 	
 }
 int main(void)

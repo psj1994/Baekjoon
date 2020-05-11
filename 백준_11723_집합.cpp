@@ -49,8 +49,7 @@ int  main(void)
 		}
 		if(w=="empty")
 		{
-			a=0;
-			
+			a=0;	
 		}
 	}
 	return 0;

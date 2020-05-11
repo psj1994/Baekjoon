@@ -54,6 +54,5 @@ int main(void)
 		}
 	}
 	cout<<day<<endl;
-	
 	return 0;
 }

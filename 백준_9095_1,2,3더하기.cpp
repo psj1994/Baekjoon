@@ -24,5 +24,4 @@ int main(void)
 		cin>>x;
 		cout<<go(x)<<endl;
 	}
-	
 }
